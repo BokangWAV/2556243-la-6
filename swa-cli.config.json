@@ -1,0 +1,15 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "2556243-la-6": {
+      "appLocation": ".",
+      "apiLocation": "api",
+      "outputLocation": ".",
+      "apiLanguage": "node",
+      "apiVersion": "16",
+      "apiBuildCommand": "npm run build --if-present",
+      "appName": "2556243-la-6",
+      "resourceGroup": "2556243-la-6-rg"
+    }
+  }
+}

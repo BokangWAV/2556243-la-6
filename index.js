@@ -7,6 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+
 const cars = require('./cars.json');
 
 //get all cars
@@ -48,6 +49,7 @@ app.post('/cars', (req, res) => {
 });
 
 //start app at localhost:3001
-app.listen(3001, () => {
-    console.log('Server started at http://localhost:3001');
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log('Server started at http://localhost:3000');
 });
